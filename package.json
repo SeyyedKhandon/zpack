@@ -1,0 +1,45 @@
+{
+  "name": "xpack",
+  "version": "0.1.0",
+  "publisher": "SeyyedKhandon",
+  "author": "SeyyedMahdiHassanpour",
+  "displayName": "Web Developer Experience Pack (XPack series)",
+  "description": "An Opinionated collection/pack of extensions for Web Developers in VSCode (Better DX in Mind)",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#47B784",
+    "theme": "dark"
+  },
+  "icon": "xpack.jpg",
+  "repository": {
+    "url": "https://github.com/SeyyedKhandon/xpack.git"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/xpack.git",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/xpack.git/issues"
+  },
+  "keywords": [
+    "web",
+    "web dx",
+    "developer experience",
+    "web dx extension pack",
+    "extension pack",
+    "DX Enhancer Pack (EPack)",
+    "Frontend Extension Pack (FPack)",
+    "Git Extension Pack (GPack)",
+    "Web Quality/Metric Extension Pack (QPack)",
+    "auto close tag, better comments,... "
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "extensionPack": [
+    "SeyyedKhandon.gpack",
+    "SeyyedKhandon.qpack",
+    "SeyyedKhandon.epack",
+    "SeyyedKhandon.fpack"
+  ]
+}
