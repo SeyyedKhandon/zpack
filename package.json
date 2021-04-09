@@ -1,6 +1,6 @@
 {
   "name": "xpack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdiHassanpour",
   "displayName": "Web Developer Experience Pack (XPack series)",
@@ -34,7 +34,7 @@
     "Extension Packs"
   ],
   "engines": {
-    "vscode": "^1.26.0"
+    "vscode": "^1.54.3"
   },
   "extensionPack": [
     "SeyyedKhandon.gpack",

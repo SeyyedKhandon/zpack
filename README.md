@@ -36,19 +36,19 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 
 ## Extensions Included
 
-<img src="./gpack.jpg" width="45"/>
+<img src="./assets/gpack.jpg" width="45"/>
 
 - 1- [Git Extension Pack (GPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.gpack) - Git Essentials Extension Pack for Visual Studio Code (GPack)
 
-<img src="./qpack.jpg" width="45"/>
+<img src="./assets/qpack.jpg" width="45"/>
 
 - 2- [Quality/Metric Extension Pack (QPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.qpack) - Web Quality/Metric Development Essentials Extension Pack for Visual Studio Code
 
-<img src="./epack.jpg" width="45"/>
+<img src="./assets/epack.jpg" width="45"/>
 
 - 3- [DX Enhancer Pack (EPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.epack) - Developer Experience Enhancer/Management Essentials Extension Pack for Visual Studio Code (EPack)
 
-<img src="./fpack.jpg" width="45"/>
+<img src="./assets/fpack.jpg" width="45"/>
 
 - 4- [Frontend Extension Pack (FPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.fpack) - Frontend Development Essentials Extension Pack for Visual Studio Code
 
