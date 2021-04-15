@@ -1,6 +1,6 @@
 {
   "name": "xpack",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdiHassanpour",
   "displayName": "Web Developer Experience Pack (XPack series)",
@@ -28,7 +28,10 @@
     "Frontend Extension Pack (FPack)",
     "Git Extension Pack (GPack)",
     "Web Quality/Metric Extension Pack (QPack)",
-    "auto close tag, better comments,... "
+    "auto close tag, better comments,... ",
+    "One Dark Pro",
+    "Material Icon Pack",
+    "Fira Code font"
   ],
   "categories": [
     "Extension Packs"
@@ -40,6 +43,7 @@
     "SeyyedKhandon.gpack",
     "SeyyedKhandon.qpack",
     "SeyyedKhandon.epack",
-    "SeyyedKhandon.fpack"
+    "SeyyedKhandon.fpack",
+    "SeyyedKhandon.tpack"
   ]
 }

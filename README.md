@@ -30,7 +30,12 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
   "errorLens.statusBarColorsEnabled": true,
   "errorLens.addNumberOfDiagnostics": true,
   "errorLens.addAnnotationTextPrefixes": true,
-  "errorLens.gutterIconsEnabled": true
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.followCursor": "closestProblem",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true
 }
 ```
 
@@ -51,6 +56,10 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 <img src="./assets/fpack.jpg" width="45"/>
 
 - 4- [Frontend Extension Pack (FPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.fpack) - Frontend Development Essentials Extension Pack for Visual Studio Code
+
+<img src="https://seyyedkhandon.gallerycdn.vsassets.io/extensions/seyyedkhandon/tpack/0.1.1/1618515855629/Microsoft.VisualStudio.Services.Icons.Default" width="45"/>
+
+- 4- [One Dark++ Extension Pack (TPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.tpack) - Theme Essentials Extension Pack(One Dark Pro,Material Icon, FiraCode font) for Visual Studio Code
 
 ## Relevant Links
 
