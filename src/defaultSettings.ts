@@ -22,4 +22,8 @@ export const defaultSettings = [
   { "errorLens.addAnnotationTextPrefixes": true },
   { "errorLens.gutterIconsEnabled": true },
   { "errorLens.followCursor": "closestProblem" },
+  { "workbench.colorTheme": "One Dark Pro" },
+  { "workbench.iconTheme": "material-icon-theme" },
+  { "editor.fontFamily": "Fira Code" },
+  { "editor.fontLigatures": true },
 ] as GeneralObject[];
