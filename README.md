@@ -4,12 +4,11 @@
 
 An Opinionated collection/pack of extensions for Web Developers in VSCode (With Better `DX` and `load time` in Mind)
 
-### Pre-defined settings which you maybe want to use:
+### 1-Click Setup:
 
-1. press `ctrl+shift+p`
-2. type `settings`
-3. click on `Preferences: Open settings (JSON)` to open your settings.json file
-4. add these lines of settings:
+1. Press `ctrl+shift+p`
+2. Type `xpack` or `update config`
+3. Click on `Update Essentials Web Extension Pack (XPack series) Config` to automatically add below configs to your `settings.json` file
 
 ```json
 {
@@ -57,7 +56,7 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 
 - 4- [Frontend Extension Pack (FPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.fpack) - Frontend Development Essentials Extension Pack for Visual Studio Code
 
-<img src="https://seyyedkhandon.gallerycdn.vsassets.io/extensions/seyyedkhandon/tpack/0.1.1/1618515855629/Microsoft.VisualStudio.Services.Icons.Default" width="45"/>
+<img src="https://seyyedkhandon.gallerycdn.vsassets.io/extensions/seyyedkhandon/tpack/1.0.0/1618567406144/Microsoft.VisualStudio.Services.Icons.Default" width="45"/>
 
 - 4- [One Dark++ Extension Pack (TPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.tpack) - Theme Essentials Extension Pack(One Dark Pro,Material Icon, FiraCode font) for Visual Studio Code
 

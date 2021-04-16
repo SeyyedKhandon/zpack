@@ -1,10 +1,10 @@
 {
   "name": "xpack",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdiHassanpour",
-  "displayName": "Web Developer Experience Pack (XPack series)",
-  "description": "An Opinionated collection/pack of extensions for Web Developers in VSCode (Better DX in Mind)",
+  "displayName": "Essentials Web Extension Pack (XPack series)",
+  "description": "An Opinionated collection/pack of essentials extensions for Web Developers in VSCode (Better DX in Mind)",
   "license": "MIT",
   "galleryBanner": {
     "color": "#47B784",
@@ -20,7 +20,6 @@
   },
   "keywords": [
     "web",
-    "web dx",
     "developer experience",
     "web dx extension pack",
     "extension pack",
@@ -31,13 +30,61 @@
     "auto close tag, better comments,... ",
     "One Dark Pro",
     "Material Icon Pack",
-    "Fira Code font"
+    "Fira Code font",
+    "ESlint",
+    "Code Metrics",
+    "Code Spell Checker",
+    "Error Lens",
+    "Import Cost",
+    "git Extension Pack",
+    "conventional commit",
+    "extension pack",
+    "git file history",
+    "git graph",
+    "git lens",
+    "HTMLHint",
+    "HTML CSS Support",
+    "Auto Rename Tag",
+    "Color Highlight",
+    "Color Info",
+    "Color Manager",
+    "CSS Navigation",
+    "Image preview",
+    "Live Server",
+    "Static server",
+    "file-size",
+    "Project Manager",
+    "Better Comments",
+    "Bracket Pair Colorizer",
+    "Markdown Preview Enhanced",
+    "Prettier - Code formatter",
+    "Formatting Toggle"
   ],
   "categories": [
     "Extension Packs"
   ],
   "engines": {
-    "vscode": "^1.54.3"
+    "vscode": "^1.55.0"
+  },
+  "activationEvents": [
+    "onCommand:xpack.updateConfig"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "xpack.updateConfig",
+        "title": "Update Essentials Web Extension Pack (XPack series) Config"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
   },
   "extensionPack": [
     "SeyyedKhandon.gpack",
@@ -45,5 +92,18 @@
     "SeyyedKhandon.epack",
     "SeyyedKhandon.fpack",
     "SeyyedKhandon.tpack"
-  ]
+  ],
+  "devDependencies": {
+    "@types/vscode": "^1.55.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^12.11.7",
+    "eslint": "^7.19.0",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "glob": "^7.1.6",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3",
+    "vscode-test": "^1.5.0"
+  }
 }
