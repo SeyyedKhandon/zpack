@@ -1,22 +1,22 @@
 {
-  "name": "xpack",
-  "version": "1.0.1",
+  "name": "zpack",
+  "version": "1.0.2",
   "publisher": "SeyyedKhandon",
-  "author": "SeyyedMahdiHassanpour",
-  "displayName": "Essentials Web Extension Pack (XPack series)",
+  "author": "SeyyedMahdi Hassanpour",
+  "displayName": "Essentials Web Extension Pack (ZPack series)",
   "description": "An Opinionated collection/pack of essentials extensions for Web Developers in VSCode (Better DX in Mind)",
   "license": "MIT",
   "galleryBanner": {
     "color": "#47B784",
     "theme": "dark"
   },
-  "icon": "xpack.jpg",
+  "icon": "zpack.jpg",
   "repository": {
-    "url": "https://github.com/SeyyedKhandon/xpack.git"
+    "url": "https://github.com/SeyyedKhandon/zpack.git"
   },
-  "homepage": "https://github.com/SeyyedKhandon/xpack.git",
+  "homepage": "https://github.com/SeyyedKhandon/zpack.git",
   "bugs": {
-    "url": "https://github.com/SeyyedKhandon/xpack.git/issues"
+    "url": "https://github.com/SeyyedKhandon/zpack.git/issues"
   },
   "keywords": [
     "web",
@@ -67,14 +67,14 @@
     "vscode": "^1.55.0"
   },
   "activationEvents": [
-    "onCommand:xpack.updateConfig"
+    "onCommand:zpack.updateConfig"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "xpack.updateConfig",
-        "title": "Update Essentials Web Extension Pack (XPack series) Config"
+        "command": "zpack.updateConfig",
+        "title": "Update Essentials Web Extension Pack (ZPack series) Config"
       }
     ]
   },

@@ -1,14 +1,14 @@
-# Web Developer Experience Pack (XPack series)
+# Web Developer Experience Pack (ZPack series)
 
-<img src="./xpack.jpg" />
+<img src="./zpack.jpg" />
 
 An Opinionated collection/pack of extensions for Web Developers in VSCode (With Better `DX` and `load time` in Mind)
 
 ### 1-Click Setup:
 
 1. Press `ctrl+shift+p`
-2. Type `xpack` or `update config`
-3. Click on `Update Essentials Web Extension Pack (XPack series) Config` to automatically add below configs to your `settings.json` file
+2. Type `zpack` or `update config`
+3. Click on `Update Essentials Web Extension Pack (ZPack series) Config` to automatically add below configs to your `settings.json` file
 
 ```json
 {
@@ -62,7 +62,7 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 
 ## Relevant Links
 
-- [Github](https://github.com/SeyyedKhandon/xpack)
-- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.xpack)
+- [Github](https://github.com/SeyyedKhandon/zpack)
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.zpack)
 
 **Enjoy!**
