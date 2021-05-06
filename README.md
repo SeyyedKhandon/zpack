@@ -3,6 +3,7 @@
 <img src="./zpack.jpg" />
 
 An Opinionated collection/pack of extensions for Web Developers in VSCode (With Better `DX` and `load time` in Mind)
+![Alt Text](./intro.gif)
 
 ### 1-Click Setup:
 
@@ -12,7 +13,9 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 4. `FiraCode Font` <img src="https://raw.githubusercontent.com/SeyyedKhandon/vscode-web-developer-experience/main/firacode.png" width="100"/>
    - Download [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip) fonts
    - Install `ttf` fonts in your OS
+5. Reload `VSCode`
 
+   Some extensions like `codeMetric` needs vscode reload after installation.
 
 <details>
 <summary>
@@ -46,8 +49,8 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
   "editor.fontLigatures": true
 }
 ```
-</details>
 
+</details>
 
 ## Extensions Included
 
