@@ -9,6 +9,15 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 1. Press `ctrl+shift+p`
 2. Type `zpack` or `update config`
 3. Click on `Update Essentials Web Extension Pack (ZPack series) Config` to automatically add below configs to your `settings.json` file
+4. `FiraCode Font` <img src="https://raw.githubusercontent.com/SeyyedKhandon/vscode-web-developer-experience/main/firacode.png" width="100"/>
+   - Download [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip) fonts
+   - Install `ttf` fonts in your OS
+
+
+<details>
+<summary>
+<i>Click to see what configs this plugin will use</i>
+</summary>
 
 ```json
 {
@@ -37,6 +46,8 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
   "editor.fontLigatures": true
 }
 ```
+</details>
+
 
 ## Extensions Included
 
