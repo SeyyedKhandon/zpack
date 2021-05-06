@@ -1,6 +1,9 @@
+<div width="100%" align="center">
+<img style="margin:auto;" src="./zpack.jpg" width="300px" />
+</div>
+
 # Web Developer Experience Pack (ZPack series)
 
-<img src="./zpack.jpg" />
 
 An Opinionated collection/pack of extensions for Web Developers in VSCode (With Better `DX` and `load time` in Mind)
 ![Alt Text](./intro.gif)
