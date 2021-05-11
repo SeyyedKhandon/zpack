@@ -1,7 +1,3 @@
-<div width="100%" align="center">
-<img style="margin:auto;" src="./zpack.jpg" width="300px" />
-</div>
-
 # Web Developer Experience Pack (ZPack series)
 
 An Opinionated collection/pack of extensions for Web Developers in VSCode (With Better `DX` and `load time` in Mind)
@@ -78,6 +74,10 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 - 5- [One Dark++ Extension Pack (TPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.tpack) - Theme Essentials Extension Pack(One Dark Pro,Material Icon, FiraCode font) for Visual Studio Code
 
 ## Relevant Links
+
+<div width="100%" align="center">
+<img style="margin:auto;" src="./zpack.jpg" width="200px" />
+</div>
 
 - [Github](https://github.com/SeyyedKhandon/zpack)
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.zpack)
