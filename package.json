@@ -1,9 +1,9 @@
 {
   "name": "zpack",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
-  "displayName": "Web Essentials Extension Pack (ZPack series)",
+  "displayName": "Web Essentials Developer Experience Extension Pack (ZPack series)",
   "description": "An Opinionated collection/pack of essentials extensions for Web Developers in VSCode (Better DX in Mind)",
   "license": "MIT",
   "galleryBanner": {

@@ -4,7 +4,6 @@
 
 # Web Developer Experience Pack (ZPack series)
 
-
 An Opinionated collection/pack of extensions for Web Developers in VSCode (With Better `DX` and `load time` in Mind)
 ![Alt Text](./intro.gif)
 
@@ -29,6 +28,7 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 {
   "files.autoSave": "afterDelay",
   "window.zoomLevel": 1,
+  "explorer.compactFolders": false,
   "projectManager.openInNewWindowWhenClickingInStatusBar": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
