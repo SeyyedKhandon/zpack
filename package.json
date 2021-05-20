@@ -1,6 +1,6 @@
 {
   "name": "zpack",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Web Essentials Developer Experience Extension Pack (ZPack series)",
@@ -10,7 +10,7 @@
     "color": "#47B784",
     "theme": "dark"
   },
-  "icon": "zpack.jpg",
+  "icon": "./assets/zpack.jpg",
   "repository": {
     "url": "https://github.com/SeyyedKhandon/zpack.git"
   },

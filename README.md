@@ -1,7 +1,7 @@
 # Web Developer Experience Pack (ZPack series)
 
 An Opinionated collection/pack of extensions for Web Developers in VSCode (With Better `DX` and `load time` in Mind)
-![Alt Text](./intro.gif)
+![Alt Text](./assets/intro.gif)
 
 ### 1-Click Setup:
 
@@ -55,7 +55,7 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 
 <img src="./assets/gpack.jpg" width="45"/>
 
-- 1- [Git Extension Pack (GPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.gpack) - Git Essentials Extension Pack for Visual Studio Code (GPack)
+- 1- [Git Essentials Extension Pack (GPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.gpack) - Git Essentials Extension Pack for Visual Studio Code (GPack)
 
 <img src="./assets/qpack.jpg" width="45"/>
 
@@ -63,20 +63,20 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 
 <img src="./assets/epack.jpg" width="45"/>
 
-- 3- [DX Enhancer Pack (EPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.epack) - Developer Experience Enhancer/Management Essentials Extension Pack for Visual Studio Code (EPack)
+- 3- [DX Enhancer Extension Pack (EPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.epack) - Developer Experience Enhancer/Management Essentials Extension Pack for Visual Studio Code (EPack)
 
 <img src="./assets/fpack.jpg" width="45"/>
 
 - 4- [Frontend Extension Pack (FPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.fpack) - Frontend Development Essentials Extension Pack for Visual Studio Code
 
-<img src="https://seyyedkhandon.gallerycdn.vsassets.io/extensions/seyyedkhandon/tpack/1.0.0/1618567406144/Microsoft.VisualStudio.Services.Icons.Default" width="45"/>
+<img src="./assets/tpack.jpg" width="45"/>
 
 - 5- [One Dark++ Extension Pack (TPack)](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.tpack) - Theme Essentials Extension Pack(One Dark Pro,Material Icon, FiraCode font) for Visual Studio Code
 
 ## Relevant Links
 
 <div width="100%" align="center">
-<img style="margin:auto;" src="./zpack.jpg" width="200px" />
+<img style="margin:auto;" src="./assets/zpack.jpg" width="200px" />
 </div>
 
 - [Github](https://github.com/SeyyedKhandon/zpack)
