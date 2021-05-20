@@ -10,7 +10,7 @@
     "color": "#47B784",
     "theme": "dark"
   },
-  "icon": "./assets/zpack.jpg",
+  "icon": "assets/zpack.jpg",
   "repository": {
     "url": "https://github.com/SeyyedKhandon/zpack.git"
   },
