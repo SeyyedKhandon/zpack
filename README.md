@@ -23,7 +23,6 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 ```json
 {
   "files.autoSave": "afterDelay",
-  "window.zoomLevel": 1,
   "explorer.compactFolders": false,
   "projectManager.openInNewWindowWhenClickingInStatusBar": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -34,14 +33,13 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
     "enable": true
   },
   "eslint.lintTask.enable": true,
+  "errorLens.statusBarColorsEnabled": true,
   "errorLens.statusBarMessageEnabled": true,
+  "errorLens.statusBarMessageType": "closestProblem",
+  "errorLens.followCursor": "closestProblem",
+  "errorLens.gutterIconsEnabled": true,
   "errorLens.scrollbarHackEnabled": true,
   "errorLens.fontStyleItalic": true,
-  "errorLens.statusBarColorsEnabled": true,
-  "errorLens.addNumberOfDiagnostics": true,
-  "errorLens.addAnnotationTextPrefixes": true,
-  "errorLens.gutterIconsEnabled": true,
-  "errorLens.followCursor": "closestProblem",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Fira Code",
