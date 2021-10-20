@@ -21,6 +21,7 @@ export const defaultSettings = [
   { "errorLens.gutterIconsEnabled": true },
   { "errorLens.scrollbarHackEnabled": true },
   { "errorLens.fontStyleItalic": true },
+  { "editor.guides.bracketPairs": true },
   { "workbench.colorTheme": "One Dark Pro" },
   { "workbench.iconTheme": "material-icon-theme" },
   { "editor.fontFamily": "Fira Code" },
