@@ -1,30 +1,23 @@
 import * as vscode from "vscode";
-import { extractAsKeyValue, GeneralObject } from "./util";
-import { defaultSettings } from "./defaultSettings";
+import { extensionActivation, firstTimeActivation } from "./util";
 
-const updateUserSettings = async (settings: GeneralObject[]) => {
-  settings.forEach(async setting => {
-    const { key, value } = extractAsKeyValue(setting);
-    await vscode.workspace
-      .getConfiguration()
-      .update(key, value, vscode.ConfigurationTarget.Global);
-  });
-};
 export async function activate(context: vscode.ExtensionContext) {
   console.log(
-    'Congratulations, your extension "Essentials Web Extension Pack (ZPack series)" is now active!'
+    `Congratulations, your extension "${context.extension.packageJSON.displayName}" installed!`
   );
-  let disposable = vscode.commands.registerCommand(
-    "zpack.updateConfig",
-    async () => {
-      console.log(JSON.stringify(defaultSettings, null, 1));
-      await updateUserSettings(defaultSettings);
-      await vscode.window.showInformationMessage(
-        "ZPack Config has been updated"
-      );
-    }
+  firstTimeActivation(context);
+
+  const activateCommand = vscode.commands.registerCommand(
+    "zpack.activate",
+    () => extensionActivation(context, "activate")
   );
-  context.subscriptions.push(disposable);
+  const deactivateCommand = vscode.commands.registerCommand(
+    "zpack.deactivate",
+    () => extensionActivation(context, "deactivate")
+  );
+  context.subscriptions.push(activateCommand, deactivateCommand);
 }
 
-export function deactivate() {}
+export function deactivate(context: vscode.ExtensionContext) {
+  extensionActivation(context, "deactivate");
+}

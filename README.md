@@ -3,47 +3,22 @@
 An Opinionated collection/pack of extensions for Web Developers in VSCode (With Better `DX` and `load time` in Mind)
 ![Alt Text](./assets/intro.gif)
 
-### 1-Click Setup:
+### Available Commands
 
-1. Press `ctrl+shift+p`
-2. Type `zpack` or `update config`
-3. Click on `Update Essentials Web Extension Pack (ZPack series) Config` to automatically add below configs to your `settings.json` file
-4. `FiraCode Font` <img src="https://raw.githubusercontent.com/SeyyedKhandon/vscode-web-developer-experience/main/firacode.png" width="100"/>
-   - Download [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip) fonts
-   - Install `ttf` fonts in your OS
-5. Reload `VSCode`
+- `Activate Essentials Web Extension Pack (ZPack series) Config`
+- `Deactivate Essentials Web Extension Pack (ZPack series) Config`
 
-   Some extensions like `codeMetric` needs vscode reload after installation.
+**Note:** to run commands, press `ctrl+shift+p` to open the command palette, and then type each one and click on it.
 
 <details>
 <summary>
-<i>Click to see what configs this plugin will use</i>
+<i>Here are the configurations this plugin will set for you</i>
 </summary>
 
 ```json
 {
-  "files.autoSave": "afterDelay",
-  "explorer.compactFolders": false,
-  "projectManager.openInNewWindowWhenClickingInStatusBar": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "cSpell.userWords": [],
-  "eslint.alwaysShowStatus": true,
-  "eslint.codeAction.showDocumentation": {
-    "enable": true
-  },
-  "eslint.lintTask.enable": true,
-  "errorLens.statusBarColorsEnabled": true,
-  "errorLens.statusBarMessageEnabled": true,
-  "errorLens.statusBarMessageType": "closestProblem",
-  "errorLens.followCursor": "closestProblem",
-  "errorLens.gutterIconsEnabled": true,
-  "errorLens.scrollbarHackEnabled": true,
-  "errorLens.fontStyleItalic": true,
   "workbench.colorTheme": "One Dark Pro",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true
+  "workbench.iconTheme": "material-icon-theme"
 }
 ```
 
