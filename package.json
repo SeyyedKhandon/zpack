@@ -1,6 +1,6 @@
 {
   "name": "zpack",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "Frontend Developer Extension Pack (ZPack - Complete Version)",
@@ -80,6 +80,10 @@
       {
         "command": "zpack.deactivate",
         "title": "Deactivate Essentials Web Extension Pack (ZPack series) Config"
+      },
+      {
+        "command": "zpack.reset",
+        "title": "Reset Essentials Web Extension Pack (ZPack series) Config"
       }
     ]
   },

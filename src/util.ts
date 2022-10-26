@@ -12,9 +12,10 @@ export function getAvailableExtensionPacks(context: vscode.ExtensionContext) {
   const missingExtensions = extensions
     .filter(ext => !ext.value)
     .map(ext => ext.name);
-  showWarning(
-    `Warning: These extensions are missing: "${missingExtensions.join(", ")}"`
-  );
+  if (missingExtensions.length)
+    showWarning(
+      `Warning: These extensions are missing: "${missingExtensions.join(", ")}"`
+    );
 
   return extensions
     .map(ext => ext.value)

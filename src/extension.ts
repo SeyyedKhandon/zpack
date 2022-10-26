@@ -1,5 +1,9 @@
 import * as vscode from "vscode";
-import { extensionActivation, firstTimeActivation } from "./util";
+import {
+  extensionActivation,
+  extensionReset,
+  firstTimeActivation
+} from "./util";
 
 export async function activate(context: vscode.ExtensionContext) {
   console.log(
@@ -15,7 +19,10 @@ export async function activate(context: vscode.ExtensionContext) {
     "zpack.deactivate",
     () => extensionActivation(context, "deactivate")
   );
-  context.subscriptions.push(activateCommand, deactivateCommand);
+  const resetCommand = vscode.commands.registerCommand("zpack.reset", () =>
+    extensionReset(context)
+  );
+  context.subscriptions.push(activateCommand, deactivateCommand, resetCommand);
 }
 
 export function deactivate(context: vscode.ExtensionContext) {
