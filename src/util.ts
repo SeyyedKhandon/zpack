@@ -1,37 +1,39 @@
 import * as vscode from "vscode";
 const showDialog = vscode.window.showInformationMessage;
+const showWarning = vscode.window.showWarningMessage;
+
+export function getAvailableExtensionPacks(context: vscode.ExtensionContext) {
+  const extNames: string[] = context.extension.packageJSON.extensionPack;
+  const extensions = extNames.map(name => ({
+    name: name.split(".")[1],
+    value: vscode.extensions.getExtension(name)
+  }));
+
+  const missingExtensions = extensions
+    .filter(ext => !ext.value)
+    .map(ext => ext.name);
+  showWarning(
+    `Warning: These extensions are missing: "${missingExtensions.join(", ")}"`
+  );
+
+  return extensions
+    .map(ext => ext.value)
+    .filter(ext => ext) as vscode.Extension<any>[];
+}
 
 export function extensionActivation(
   context: vscode.ExtensionContext,
   state: "activate" | "deactivate" = "activate"
 ) {
-  const tpack = vscode.extensions.getExtension("SeyyedKhandon.tpack");
-  const gpack = vscode.extensions.getExtension("SeyyedKhandon.gpack");
-  const fpack = vscode.extensions.getExtension("SeyyedKhandon.fpack");
-  const qpack = vscode.extensions.getExtension("SeyyedKhandon.qpack");
-  const epack = vscode.extensions.getExtension("SeyyedKhandon.epack");
-  if (!tpack || !gpack || !fpack || !qpack || !epack)
-    return showDialog(
-      "Some Extensions(tpack or gpack, fpack, qpack,epack) are missing!"
-    );
-  tpack.activate().then(() => {
-    vscode.commands.executeCommand(`tpack.${state}`);
-  });
-  gpack.activate().then(() => {
-    vscode.commands.executeCommand(`gpack.${state}`);
-  });
-  fpack.activate().then(() => {
-    vscode.commands.executeCommand(`fpack.${state}`);
-  });
-  qpack.activate().then(() => {
-    vscode.commands.executeCommand(`qpack.${state}`);
-  });
-  epack.activate().then(() => {
-    vscode.commands.executeCommand(`epack.${state}`);
-  });
+  getAvailableExtensionPacks(context).forEach(extension =>
+    extension
+      .activate()
+      .then(() =>
+        vscode.commands.executeCommand(`${extension.packageJSON.name}.${state}`)
+      )
+  );
+
   showDialog(`${context.extension.packageJSON.displayName} is ${state}d!`);
-  // if(state==="deactivate")
-  // context.globalState.update(context.extension.id, undefined);
 }
 
 export function firstTimeActivation(context: vscode.ExtensionContext) {
@@ -41,4 +43,9 @@ export function firstTimeActivation(context: vscode.ExtensionContext) {
 
   extensionActivation(context);
   context.globalState.update(context.extension.id, version);
+}
+
+export function extensionReset(context: vscode.ExtensionContext) {
+  context.globalState.update(context.extension.id, undefined);
+  extensionActivation(context, "deactivate");
 }

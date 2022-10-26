@@ -10,6 +10,8 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 
 **Note:** to run commands, press `ctrl+shift+p` to open the command palette, and then type each one and click on it.
 
+**Important Note:** Don't forget to install Firacode font from the automatically opened window
+
 <details>
 <summary>
 <i>Here are the configurations this plugin will set for you</i>
