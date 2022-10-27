@@ -1,9 +1,9 @@
 {
   "name": "zpack",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
-  "displayName": "Frontend Developer Extension Pack (ZPack - Complete Version)",
+  "displayName": "VSCode Pro - Frontend Developers (ZPack)",
   "description": "An Opinionated collection/pack of essentials extensions for Web Developers in VSCode (Better DX in Mind)",
   "license": "MIT",
   "galleryBanner": {
@@ -75,15 +75,15 @@
     "commands": [
       {
         "command": "zpack.activate",
-        "title": "Activate Essentials Web Extension Pack (ZPack series) Config"
+        "title": "Activate VSCode Pro - Frontend Developers (ZPack) Config"
       },
       {
         "command": "zpack.deactivate",
-        "title": "Deactivate Essentials Web Extension Pack (ZPack series) Config"
+        "title": "Deactivate VSCode Pro - Frontend Developers (ZPack) Config"
       },
       {
         "command": "zpack.reset",
-        "title": "Reset Essentials Web Extension Pack (ZPack series) Config"
+        "title": "Reset VSCode Pro - Frontend Developers (ZPack) Config"
       }
     ]
   },

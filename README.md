@@ -1,12 +1,15 @@
-# Web Developer Experience Pack (ZPack series)
+# VSCode Pro - Frontend Developers (ZPack)
+
+#### Web Developer Experience Pack (ZPack series)
 
 An Opinionated collection/pack of extensions for Web Developers in VSCode (With Better `DX` and `load time` in Mind)
-![Alt Text](./assets/intro.gif)
+![Alt Text](./assets/vscode-example.jpg)
 
 ### Available Commands
 
-- `Activate Essentials Web Extension Pack (ZPack series) Config`
-- `Deactivate Essentials Web Extension Pack (ZPack series) Config`
+- `Activate VSCode Pro - Frontend Developers (ZPack) Config`
+- `Deactivate VSCode Pro - Frontend Developers (ZPack) Config`
+- `Reset VSCode Pro - Frontend Developers (ZPack) Config` - `ZPack's` settings will be reset with this command.
 
 **Note:** to run commands, press `ctrl+shift+p` to open the command palette, and then type each one and click on it.
 
@@ -19,8 +22,39 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 
 ```json
 {
+  "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "codemetrics.nodeconfiguration.ReturnStatement": 0.1,
+  "codemetrics.nodeconfiguration.SwitchStatement": 0.1,
+  "codemetrics.nodeconfiguration.JsxSelfClosingElement": 0.1,
+  "codemetrics.nodeconfiguration.JsxElement": 0.2,
+  "codemetrics.basics.CodeLensHiddenUnder": 4,
+  "sonarlint.disableTelemetry": true,
+  "files.autoSave": "afterDelay",
+  "explorer.compactFolders": false,
+  "editor.guides.bracketPairs": true,
+  "editor.mouseWheelZoom": true,
+  "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+  "errorLens.statusBarColorsEnabled": true,
+  "errorLens.statusBarMessageEnabled": true,
+  "errorLens.statusBarMessageType": "closestSeverity",
+  "errorLens.followCursor": "closestProblem",
+  "errorLens.scrollbarHackEnabled": true,
+  "errorLens.fontStyleItalic": true,
+  "errorLens.messageBackgroundMode": "message",
+  "workbench.colorCustomizations": {
+    "editorInfo.foreground": "#0080ff6a"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
   "workbench.colorTheme": "One Dark Pro",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true
 }
 ```
 
