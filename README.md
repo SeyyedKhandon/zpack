@@ -22,7 +22,7 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
 
 ```json
 {
-  "eslint.alwaysShowStatus": true,
+  "conventionalCommits.lineBreak": "\\n",
   "eslint.lintTask.enable": true,
   "eslint.codeAction.showDocumentation": {
     "enable": true
@@ -34,10 +34,14 @@ An Opinionated collection/pack of extensions for Web Developers in VSCode (With 
   "codemetrics.basics.CodeLensHiddenUnder": 4,
   "sonarlint.disableTelemetry": true,
   "files.autoSave": "afterDelay",
+  "window.zoomLevel": 1,
+  "editor.wordWrap": "on",
+  "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
   "editor.guides.bracketPairs": true,
   "editor.mouseWheelZoom": true,
   "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+  "errorLens.gutterIconsEnabled": false,
   "errorLens.statusBarColorsEnabled": true,
   "errorLens.statusBarMessageEnabled": true,
   "errorLens.statusBarMessageType": "closestSeverity",

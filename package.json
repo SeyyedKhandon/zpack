@@ -1,6 +1,6 @@
 {
   "name": "zpack",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdi Hassanpour",
   "displayName": "VSCode Pro - Frontend Developers (ZPack)",
@@ -59,7 +59,8 @@
     "Bracket Pair Colorizer",
     "Markdown Preview Enhanced",
     "Prettier - Code formatter",
-    "Formatting Toggle"
+    "Formatting Toggle",
+    "Pretty TypeScript Errors"
   ],
   "categories": [
     "Extension Packs"
